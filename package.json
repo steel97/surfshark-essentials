@@ -1,0 +1,20 @@
+{
+  "name": "surfshark-essentials",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "dev": "webextension-toolbox dev",
+    "build": "webextension-toolbox build"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.5",
+    "@types/webextension-polyfill": "^0.9.0",
+    "@webextension-toolbox/webextension-toolbox": "^5.2.2",
+    "typescript": "^4.7.4",
+    "webextension-polyfill": "^0.10.0"
+  },
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1"
+  }
+}
